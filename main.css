@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  padding: 20px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#ff9200), color-stop(#ff5a00), to(#c4004d));
+  background: linear-gradient(to top, #ff9200, #ff5a00, #c4004d);
+  margin: auto;
+  width: 100%;
+  height: 850px;
+}
+
+.container .h1_titulo {
+  text-align: center;
+  color: white;
+  margin-top: 15%;
+  font-size: 1.2rem;
+}
+
+.container .obj_cont {
+  margin: auto;
+  max-width: 300px;
+}
+
+.container .obj_cont .logo_woker {
+  margin-top: 35%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.container .btn_conocenos {
+  margin: auto;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.container .btn_conocenos a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  border: 1px solid white;
+  border-radius: 50px;
+  font-size: 1.0rem;
+}
+
+.container .action_inicio {
+  text-align: center;
+  color: white;
+  font-size: 0.7rem;
+  margin-top: 35%;
+}
+/*# sourceMappingURL=main.css.map */
