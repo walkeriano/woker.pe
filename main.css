@@ -21,17 +21,17 @@ body {
 .container .h1_titulo {
   text-align: center;
   color: white;
-  margin-top: 15%;
+  margin-top: 10%;
   font-size: 1.2rem;
 }
 
 .container .obj_cont {
   margin: auto;
-  max-width: 300px;
+  max-width: 260px;
 }
 
 .container .obj_cont .logo_woker {
-  margin-top: 35%;
+  margin-top: 30%;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
@@ -49,13 +49,22 @@ body {
   padding: 10px 20px;
   border: 1px solid white;
   border-radius: 50px;
-  font-size: 1.0rem;
+  font-size: 0.9rem;
 }
 
 .container .action_inicio {
+  margin-top: 30%;
+}
+
+.container .action_inicio h2 {
   text-align: center;
   color: white;
-  font-size: 0.7rem;
-  margin-top: 35%;
+  font-size: 1.0rem;
+}
+
+.container .action_inicio .btn_flecha {
+  margin: auto;
+  margin-top: 20px;
+  width: 100px;
 }
 /*# sourceMappingURL=main.css.map */

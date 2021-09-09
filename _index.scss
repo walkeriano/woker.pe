@@ -8,16 +8,16 @@
     .h1_titulo{
         text-align: center;
         color: white;
-        margin-top: 15%;
+        margin-top: 10%;
         font-size: 1.2rem;
     }
 
     .obj_cont{
         margin: auto;
-        max-width: 300px;
+        max-width: 260px;
 
         .logo_woker{
-            margin-top: 35%;
+            margin-top: 30%;
             width: 100%;
             object-fit: cover;
         }
@@ -35,15 +35,24 @@
         padding: 10px 20px;
         border: 1px solid white;
         border-radius: 50px;
-        font-size: 1.0rem;
+        font-size: 0.9rem;
         }
     }
 
     .action_inicio{
-        text-align: center;
-        color: white;
-        font-size: 0.7rem;
-        margin-top: 35%;
+        margin-top: 30%;
+
+        h2{
+            text-align: center;
+            color: white;
+            font-size: 1.0rem;
+        }
+
+        .btn_flecha{
+            margin: auto;
+            margin-top: 20px;;
+            width: 100px;
+        }
     }
 
     
