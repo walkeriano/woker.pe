@@ -9,7 +9,8 @@
         text-align: center;
         color: white;
         margin-top: 10%;
-        font-size: 1.2rem;
+        font-size: 1.1rem;
+        letter-spacing: 0.1rem;
     }
 
     .obj_cont{
@@ -17,7 +18,7 @@
         max-width: 260px;
 
         .logo_woker{
-            margin-top: 30%;
+            margin-top: 35%;
             width: 100%;
             object-fit: cover;
         }
@@ -32,7 +33,7 @@
         a{
         text-decoration: none;
         color: white;
-        padding: 10px 20px;
+        padding: 7px 14px;
         border: 1px solid white;
         border-radius: 50px;
         font-size: 0.9rem;
@@ -46,12 +47,13 @@
             text-align: center;
             color: white;
             font-size: 1.0rem;
+            letter-spacing: 1px;
         }
 
         .btn_flecha{
             margin: auto;
             margin-top: 20px;;
-            width: 100px;
+            width: 20%;
         }
     }
 

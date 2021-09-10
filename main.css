@@ -22,7 +22,8 @@ body {
   text-align: center;
   color: white;
   margin-top: 10%;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+  letter-spacing: 0.1rem;
 }
 
 .container .obj_cont {
@@ -31,7 +32,7 @@ body {
 }
 
 .container .obj_cont .logo_woker {
-  margin-top: 30%;
+  margin-top: 35%;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
@@ -46,7 +47,7 @@ body {
 .container .btn_conocenos a {
   text-decoration: none;
   color: white;
-  padding: 10px 20px;
+  padding: 7px 14px;
   border: 1px solid white;
   border-radius: 50px;
   font-size: 0.9rem;
@@ -60,11 +61,87 @@ body {
   text-align: center;
   color: white;
   font-size: 1.0rem;
+  letter-spacing: 1px;
 }
 
 .container .action_inicio .btn_flecha {
   margin: auto;
   margin-top: 20px;
-  width: 100px;
+  width: 20%;
+}
+
+.acceso {
+  background: rgba(255, 255, 255, 0.37);
+  border: 1px solid white;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  position: absolute;
+  bottom: 0;
+  height: 220px;
+  width: 90%;
+}
+
+.acceso h2 {
+  margin: 20px;
+  font-size: 1.0rem;
+  text-align: center;
+  color: white;
+}
+
+.acceso .action_acceso {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.acceso .action_acceso .btn_usuario {
+  width: 35%;
+  border: 0px solid white;
+  margin-right: 15px;
+  padding: 10px;
+}
+
+.acceso .action_acceso .btn_usuario .usuario {
+  margin: auto;
+  width: 70px;
+}
+
+.acceso .action_acceso .btn_usuario p {
+  color: white;
+  font-size: 1.0rem;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.acceso .action_acceso .btn_abogado {
+  width: 35%;
+  border: 0px solid white;
+  margin-left: 15px;
+  padding: 10px;
+}
+
+.acceso .action_acceso .btn_abogado .usuario {
+  margin: auto;
+  width: 70px;
+}
+
+.acceso .action_acceso .btn_abogado p {
+  color: white;
+  font-size: 1.0rem;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.acceso .action_acceso .linea {
+  width: 2px;
+  height: 70px;
+  background: white;
+  border-radius: 20px;
 }
 /*# sourceMappingURL=main.css.map */
